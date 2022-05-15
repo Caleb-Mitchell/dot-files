@@ -1,0 +1,102 @@
+# Autotype email address
+alt + e
+  sleep .5; xdotool key c a l e b j period m i t c h e l l at g m a i l period c o m
+
+# Launch emacs
+# alt + e
+#   emacsclient -c
+
+# Paste custom pedac
+ctrl + p
+  ~/.scripts/.paste_pedac.sh
+
+# Change volume
+# To list sinks -> pactl list short sinks
+ctrl + alt + Right
+  amixer -D pulse sset Master 10%+
+
+ctrl + alt + Left
+  amixer -D pulse sset Master 10%-
+
+ctrl + alt + Up
+  amixer -D pulse sset Master unmute
+
+ctrl + alt + Down
+  amixer -D pulse sset Master mute
+
+# Script to change the default audio output device, as well as move
+# all the current audio streams to new output
+# use the name of audio sink, not index, as index can change when rebooting
+ctrl + alt + Next
+  ~/.scripts/switch_to_speakers.sh
+
+ctrl + alt + Prior
+  ~/.scripts/switch_to_headphones.sh
+
+# Make sxhkd reload its configuration files:
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+# Launch alacritty
+shift + super + Return
+  alacritty
+
+# Launch mochi
+alt + m
+  ~/Programs/Mochi-*
+
+# Launch firefox
+alt + q
+  firefox
+
+# Launch discord
+alt + d
+  flatpak run com.discordapp.Discord
+
+# Launch plex
+alt + p
+  flatpak run com.plexamp.Plexamp
+
+# Launch gnome pomodoro
+# alt + p
+  # gnome-pomodoro
+
+# Launch vscode
+alt + c
+  code
+
+# Launch standard notes
+alt + n
+  flatpak run org.standardnotes.standardnotes
+
+# Launch skype
+alt + k
+  skypeforlinux
+
+# Launch zoom
+alt + z
+  flatpak run us.zoom.Zoom
+
+# Launch anki
+# alt + a
+  # anki
+
+Launch spotify
+alt + s
+  spotify
+
+# Launch bitwarden
+alt + b
+  flatpak run com.bitwarden.desktop
+
+# Launch toggl
+# alt + t
+  # flatpak run com.toggl.TogglDesktop
+
+# Launch slack
+alt + l
+  slack
+
+# Launch nautilus
+alt + f
+  nautilus

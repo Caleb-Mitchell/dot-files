@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=flatpak run com.toggl.TogglDesktop
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=false
+Name[en_US]=toggl
+Name=toggl
+Comment[en_US]=
+Comment=

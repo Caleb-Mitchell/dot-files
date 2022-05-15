@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/caleb/.dot_files/dot_files_pop/.scripts/restart_transparent_topbar_extension.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=false
+Name[en_US]=restart transparent topbar
+Name=restart transparent topbar
+Comment[en_US]=
+Comment=

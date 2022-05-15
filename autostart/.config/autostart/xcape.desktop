@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Exec=xcape -e '#66=Escape'
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[en_US]=set capslock/control as escape
+Name=set capslock/control as escape
+Comment[en_US]=
+Comment=
