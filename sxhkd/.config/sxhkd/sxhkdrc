@@ -2,10 +2,6 @@
 alt + e
   sleep .5; xdotool key c a l e b j period m i t c h e l l at g m a i l period c o m
 
-# Launch emacs
-# alt + e
-#   emacsclient -c
-
 # Paste custom pedac
 ctrl + p
   ~/.scripts/.paste_pedac.sh
@@ -57,10 +53,6 @@ alt + d
 alt + p
   flatpak run com.plexamp.Plexamp
 
-# Launch gnome pomodoro
-# alt + p
-  # gnome-pomodoro
-
 # Launch vscode
 alt + c
   code
@@ -77,10 +69,6 @@ alt + k
 alt + z
   flatpak run us.zoom.Zoom
 
-# Launch anki
-# alt + a
-  # anki
-
 Launch spotify
 alt + s
   spotify
@@ -88,10 +76,6 @@ alt + s
 # Launch bitwarden
 alt + b
   flatpak run com.bitwarden.desktop
-
-# Launch toggl
-# alt + t
-  # flatpak run com.toggl.TogglDesktop
 
 # Launch slack
 alt + l
