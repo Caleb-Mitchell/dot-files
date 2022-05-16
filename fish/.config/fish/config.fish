@@ -17,9 +17,6 @@ end
 # set $EDITOR so when a program starts an editor it uses nvim
 export EDITOR=vim
 
-# Neofetch!
-# neofetch
-
 # Disable fish greeting
 set -g -x fish_greeting ''
 
@@ -65,6 +62,19 @@ function postman
     ~/Programs/Postman/Postman &
     disown
 end
+
+# Ubuntu server aliases to sleep and wake screen
+# alias sleep="setterm --blank force"
+# alias wake="setterm --blank poke"
+
+# Ubuntu server startup services function
+# function startup
+#   sudo ufw reload
+#   sudo qbittorrent-nox &
+#   sudo node /home/caleb/foundryvtt/resources/app/main.js
+#   --dataPath=$HOME/foundrydata &
+# end
+
 
 #
 ## FUNCTIONS/ALIASES ##
