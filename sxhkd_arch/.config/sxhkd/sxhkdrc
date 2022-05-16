@@ -1,0 +1,80 @@
+# Autotype email address
+alt + e
+  sleep .5; xdotool key c a l e b j period m i t c h e l l at g m a i l period c o m
+
+# Change brightness
+XF86MonBrightnessUp
+  backlight_control +20
+
+XF86MonBrightnessDown
+  backlight_control -20
+
+# Change volume
+# To list sinks -> pactl list short sinks
+ctrl + alt + Right
+  amixer -D pulse sset Master 10%+
+
+ctrl + alt + Left
+  amixer -D pulse sset Master 10%-
+
+ctrl + alt + Up
+  amixer -D pulse sset Master unmute
+
+ctrl + alt + Down
+  amixer -D pulse sset Master mute
+
+# Make sxhkd reload its configuration files:
+alt + Escape
+	pkill -USR1 -x sxhkd
+
+# Launch Mochi
+alt + m
+  ~/Programs/Mochi-*
+
+# Launch st
+super + shift + Return
+  st
+
+# Launch firefox
+alt + q
+  firefox
+
+# Launch discord
+alt + d
+  discord
+
+# Launch plex
+alt + p
+  flatpak run com.plexamp.Plexamp
+
+# Launch vscode
+alt + c
+  code
+
+# Launch standard notes
+alt + n
+  ~/Programs/standard-notes-*
+
+# Launch skype
+alt + k
+  skypeforlinux
+
+# Launch zoom
+alt + z
+  flatpak run us.zoom.Zoom
+
+# Launch spotify
+alt + s
+  flatpak run com.spotify.Client
+
+# Launch bitwarden
+alt + b
+  bitwarden-desktop
+
+# Launch slack
+alt + l
+  slack
+
+# Launch nautilus
+alt + f
+  nautilus
