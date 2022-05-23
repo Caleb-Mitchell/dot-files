@@ -50,6 +50,7 @@ end
 
 # neovim alias
 alias vim="nvim"
+alias vi="nvim"
 
 # exa aliases
 alias ls="exa --color=auto --icons"
