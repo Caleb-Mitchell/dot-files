@@ -32,12 +32,6 @@ function update
     sudo apt autoremove
 end
 
-# reload audio modules if glitched
-alias reload_audio="sudo alsa force-reload"
-
-# alias server="ssh -t caleb@10.0.0.140 -p8361 'bash -o vi'"
-alias server="ssh -t caleb@10.0.0.140 -p8361"
-
 # allow for sudo !! like in bash
 function sudo --description "Replacement for Bash 'sudo !!' \
    command to run last command using sudo."
@@ -65,17 +59,16 @@ function postman
 end
 
 # Ubuntu server aliases to sleep and wake screen
-# alias sleep="setterm --blank force"
-# alias wake="setterm --blank poke"
+alias sleep="setterm --blank force"
+alias wake="setterm --blank poke"
 
 # Ubuntu server startup services function
-# function startup
-#   sudo ufw reload
-#   sudo qbittorrent-nox &
-#   sudo node /home/caleb/foundryvtt/resources/app/main.js
-#   --dataPath=$HOME/foundrydata &
-# end
-
+function startup
+  sudo ufw reload
+  sudo qbittorrent-nox &
+  sudo node /home/caleb/foundryvtt/resources/app/main.js
+  --dataPath=$HOME/foundrydata &
+end
 
 #
 ## FUNCTIONS/ALIASES ##
