@@ -32,7 +32,7 @@ Run, "C:\Users\caleb\AppData\Local\Programs\Microsoft VS Code\Code.exe"
 return
 
 !p::
-Run, "C:\Program Files\Plex\Plex\Plex.exe"
+Run, "C:\Users\caleb\AppData\Local\Programs\Plexamp\Plexamp.exe"
 return
 
 !k::
