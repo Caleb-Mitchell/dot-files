@@ -68,6 +68,8 @@ end
 
 # Initialize starship
 starship init fish | source
+# Initialize zoxide
+zoxide init fish | source
 
 # Initialize .rbenv
 status --is-interactive; and rbenv init - fish | source
