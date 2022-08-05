@@ -2,6 +2,10 @@
 alt + e
   sleep .5; xdotool key c a l e b j period m i t c h e l l at g m a i l period c o m
 
+# Unmute laptop
+XF86AudioMute
+  amixer sset Master toggle
+
 # Change brightness
 XF86MonBrightnessUp
   backlight_control +20
