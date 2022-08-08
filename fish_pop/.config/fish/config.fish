@@ -68,8 +68,11 @@ end
 
 # Initialize starship
 starship init fish | source
+
 # Initialize zoxide
 zoxide init fish --cmd cd | source
+# Change fzf.fish keybinding for terminal directory search
+fzf_configure_bindings --directory=\cG # Go for 'Go to file!'
 
 # Initialize .rbenv
 status --is-interactive; and rbenv init - fish | source
