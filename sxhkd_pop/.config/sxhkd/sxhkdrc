@@ -24,10 +24,10 @@ ctrl + alt + Down
 # all the current audio streams to new output
 # use the name of audio sink, not index, as index can change when rebooting
 ctrl + alt + Next
-  ~/.scripts/switch_to_speakers.sh
+  ~/.local/bin/switch_to_speakers.sh
 
 ctrl + alt + Prior
-  ~/.scripts/switch_to_headphones.sh
+  ~/.local/bin/switch_to_headphones.sh
 
 # Make sxhkd reload its configuration files:
 alt + Escape
