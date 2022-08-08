@@ -25,10 +25,6 @@ ctrl + alt + Next
 ctrl + alt + Prior
   ~/.local/bin/switch_to_headphones.sh
 
-# Run tmux-sessionizer to launch tmux straight into a project session
-ctrl + j
-  ~/.local/bin/tmux-sessionizer
-
 # Make sxhkd reload its configuration files:
 alt + Escape
 	pkill -USR1 -x sxhkd
