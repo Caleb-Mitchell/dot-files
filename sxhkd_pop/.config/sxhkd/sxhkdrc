@@ -2,10 +2,6 @@
 alt + e
   sleep .5; xdotool key c a l e b j period m i t c h e l l at g m a i l period c o m
 
-# Paste custom pedac
-ctrl + p
-  ~/.scripts/.paste_pedac.sh
-
 # Change volume
 # To list sinks -> pactl list short sinks
 ctrl + alt + Right
