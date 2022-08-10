@@ -57,6 +57,9 @@ alias ls="exa --color=auto --icons"
 alias ll="exa -lh --icons --git"
 alias la="exa -lah --icons --git"
 
+# tmux alias
+alias x="tmux"
+
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
