@@ -60,6 +60,9 @@ alias la="exa -lah --icons --git"
 # tmux alias
 alias x="tmux"
 
+# bat alias to cat
+alias cat="bat"
+
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
@@ -76,6 +79,9 @@ starship init fish | source
 zoxide init fish --cmd cd | source
 # Change fzf.fish keybinding for terminal directory search
 fzf_configure_bindings --directory=\cG # Go for 'Go to file!'
+# Add fish keybinding to launch tmux-sessionizer from in fish
+# (this only works if there are no sessions active)
+bind \cs 'tmux-sessionizer'
 
 # Initialize .rbenv
 status --is-interactive; and rbenv init - fish | source
