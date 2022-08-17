@@ -64,7 +64,8 @@ alias x="tmux"
 alias cat="bat"
 
 # alias fj to "fish-jump!" running tmux-sessionizer from the terminal
-# alias fj='tmux-sessionizer'
+# (this only works if there are no sessions active)
+alias fj='tmux-sessionizer'
 
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
@@ -82,9 +83,6 @@ starship init fish | source
 zoxide init fish --cmd cd | source
 # Change fzf.fish keybinding for terminal directory search
 fzf_configure_bindings --directory=\cG # Go for 'Go to file!'
-# Add fish keybinding to launch tmux-sessionizer from in fish
-# (this only works if there are no sessions active)
-bind \cs 'tmux-sessionizer'
 
 # Initialize .rbenv
 status --is-interactive; and rbenv init - fish | source
