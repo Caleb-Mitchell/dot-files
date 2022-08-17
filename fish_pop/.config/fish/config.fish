@@ -63,6 +63,9 @@ alias x="tmux"
 # bat alias to cat
 alias cat="bat"
 
+# alias fj to "fish-jump!" running tmux-sessionizer from the terminal
+# alias fj='tmux-sessionizer'
+
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
