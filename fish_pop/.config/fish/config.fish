@@ -63,9 +63,9 @@ alias x="tmux"
 # bat alias to cat
 alias cat="bat"
 
-# alias fj to "fish-jump!" running tmux-sessionizer from the terminal
-# (this only works if there are no sessions active)
-alias fj='tmux-sessionizer'
+# bind ctrl-s to start tmux sessionizer (only works if not already running)
+bind -M insert \cS 'tmux-sessionizer'
+bind -M insert \cA 'tmux a'
 
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
