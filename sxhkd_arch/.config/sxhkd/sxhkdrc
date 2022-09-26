@@ -90,3 +90,7 @@ alt + l
 # Launch nautilus
 alt + f
   nautilus
+
+# Launch Zathura
+alt + h
+  zathura
