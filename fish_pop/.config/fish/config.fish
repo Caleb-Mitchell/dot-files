@@ -65,6 +65,8 @@ alias cat="bat"
 
 # bind ctrl-s to start tmux sessionizer (only works if not already running)
 bind -M insert \cS 'tmux-sessionizer'
+
+# bind ctrl-a to attach to most recent tmux session
 bind -M insert \cA 'tmux a'
 
 # postman alias
