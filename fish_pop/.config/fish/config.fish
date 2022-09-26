@@ -72,9 +72,6 @@ bind -M insert \cA 'tmux a'
 # bind ctrl-e to launch ranger (think file Explorer)
 bind -M insert \cE 'ranger'
 
-# bind ctrl-z to launch zathura (pdf reader)
-bind -M insert \cZ 'zathura'
-
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
