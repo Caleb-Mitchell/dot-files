@@ -69,6 +69,9 @@ bind -M insert \cS 'tmux-sessionizer'
 # bind ctrl-a to attach to most recent tmux session
 bind -M insert \cA 'tmux a'
 
+# bind ctrl-e to launch ranger (think file Explorer)
+bind -M insert \cE 'ranger'
+
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
