@@ -1,0 +1,18 @@
+" General Settings
+set configversion 2.0
+set theme gruvbox-dark-hard
+set newtab about:blank
+set update.lastchecktime 1665244058076
+set update.nag true
+set update.nagwait 7
+set update.lastnaggedversion 1.14.0
+set update.checkintervalsecs 86400
+set smoothscroll true
+set storage local
+
+" Autocmds
+autocmd DocStart gather.town mode ignore
+autocmd DocStart launchschool.com mode ignore
+
+" For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
+" vim: set filetype=tridactyl
