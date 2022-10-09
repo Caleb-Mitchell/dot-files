@@ -71,8 +71,19 @@ $#Del::FileRecycleEmpty ; Win+Del to empty trash (recycle bin)
 
 #+c::WinKill A    ; super+shift+c to alt+f4
 
-;CapsLock::Escape ; remap capslock to escape
+; remap super to super+space to trigger powertoys run, but only when pressed alone
+LWin up::
+If (A_PriorKey = "LWin") ; LWin was pressed alone
+    Send, #{space}
+return
 
+; In this case its necessary to define a custom combination by using "&" or "<#" 
+; to avoid that LWin loses its original function as a modifier key:
+
+<#d:: Send #d  ; <# means LWin
+
+;CapsLock::Escape ; remap capslock to escape
+   
 ; capslock is ctrl when held, esc when tapped
 ; Map Capslock to Control
 ; Map press & release of Capslock with no other key to Esc
