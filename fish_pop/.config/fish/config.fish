@@ -48,9 +48,14 @@ else
     end
 end
 
-# neovim alias
-alias vim="nvim"
-alias vi="nvim"
+# set alias for vim based on operating system
+if [ (uname -r | sed -n 's/.*\( *Microsoft *\).*/\1/ip') = "microsoft" ]
+  alias vim="~/bin/nvim.appimage"
+  alias vi="~/bin/nvim.appimage"
+else
+  alias vim="nvim"
+  alias vi="nvim"
+end
 
 # exa aliases
 alias ls="exa --color=auto --icons"
