@@ -1,6 +1,6 @@
 " General Settings
 set configversion 2.0
-set colorscheme --url https://raw.githubusercontent.com/bezmi/base16-tridactyl/master/base16-gruvbox-dark-hard.css base16-gruvbox-dark-hard
+set colorscheme --url https://raw.githubusercontent.com/bezmi/base16-tridactyl/master/base16-gruvbox-dark-hard.css
 set newtab about:blank
 set update.lastchecktime 1665244058076
 set update.nag true
