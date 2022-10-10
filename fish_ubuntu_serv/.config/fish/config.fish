@@ -25,10 +25,8 @@ set -g -x fish_greeting ''
 
 # update
 function update
-    flatpak update
     sudo apt update
     sudo apt upgrade
-    sudo apt dist-upgrade
     sudo apt autoremove
 end
 
@@ -76,17 +74,3 @@ end
 # Initialize starship
 starship init fish | source
 
-# Initialize .rbenv
-status --is-interactive; and rbenv init - fish | source
-
-# Add emacs to path
-fish_add_path ~/.emacs.d
-# Add ~/bin to path
-fish_add_path ~/bin/
-fish_add_path ~/.local/bin/
-# Add cargo bin to path
-fish_add_path ~/.cargo/bin/
-# Add go bin to path
-fish_add_path ~/go/bin
-# Add npm bin to path
-fish_add_path ~/.npm-packages/bin
