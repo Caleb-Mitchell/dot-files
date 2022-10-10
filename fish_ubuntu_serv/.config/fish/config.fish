@@ -44,11 +44,6 @@ end
 alias vim="nvim"
 alias vi="nvim"
 
-# exa aliases
-alias ls="exa --color=auto --icons"
-alias ll="exa -lh --icons --git"
-alias la="exa -lah --icons --git"
-
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
