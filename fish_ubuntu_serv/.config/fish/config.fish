@@ -40,10 +40,6 @@ else
     end
 end
 
-# neovim alias
-alias vim="nvim"
-alias vi="nvim"
-
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
