@@ -49,7 +49,7 @@ else
 end
 
 # set alias for vim based on operating system
-if test ( grep microsoft /proc/version )
+if test ( grep -i microsoft /proc/version )
   alias vim="~/bin/nvim.appimage"
   alias vi="~/bin/nvim.appimage"
 else
