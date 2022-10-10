@@ -49,7 +49,7 @@ else
 end
 
 # set alias for vim based on operating system
-if test (uname -r | sed -n 's/.*\( *Microsoft *\).*/\1/ip') = "microsoft"
+if grep Microsoft /proc/version
   alias vim="~/bin/nvim.appimage"
   alias vi="~/bin/nvim.appimage"
 else
