@@ -37,6 +37,7 @@ alias reload_audio="sudo alsa force-reload"
 
 # alias server="ssh -t caleb@10.0.0.140 -p8361 'bash -o vi'"
 alias server="ssh -t caleb@10.0.0.140 -p8361"
+alias server_remote="ssh -t caleb@duckbits.duckdns.org -p8361"
 
 # allow for sudo !! like in bash
 function sudo --description "Replacement for Bash 'sudo !!' \
