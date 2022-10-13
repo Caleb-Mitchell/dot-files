@@ -40,6 +40,15 @@ else
     end
 end
 
+# bind ctrl-s to start tmux sessionizer (only works if not already running)
+bind -M insert \cS 'tmux-sessionizer'
+
+# bind ctrl-a to attach to most recent tmux session
+bind -M insert \cA 'tmux a'
+
+# bind ctrl-e to launch ranger (think file Explorer)
+bind -M insert \cE 'ranger'
+
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
@@ -65,3 +74,5 @@ end
 # Initialize starship
 starship init fish | source
 
+# Initialize zoxide
+zoxide init fish --cmd cd | source
