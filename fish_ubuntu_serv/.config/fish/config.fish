@@ -62,9 +62,7 @@ alias wake="setterm --blank poke"
 
 # Ubuntu server startup services function
 function startup
-  sudo ufw reload &&
-  sudo qbittorrent-nox &&
-  node /home/caleb/foundryvtt/resources/app/main.js --dataPath=$HOME/foundrydata &
+  "$HOME/.local/bin/ubuntu_server_startup.sh"
 end
 
 #
