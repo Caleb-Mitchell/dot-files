@@ -54,8 +54,8 @@ if test ( grep -i microsoft /proc/version )
   alias vim="~/bin/nvim.appimage"
   alias vi="~/bin/nvim.appimage"
 else
-  alias vim="nvim"
-  alias vi="nvim"
+  alias vim="~/Programs/nvim.appimage"
+  alias vi="~/Programs/nvim.appimage"
 end
 
 # exa aliases
