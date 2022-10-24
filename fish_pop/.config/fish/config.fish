@@ -78,6 +78,9 @@ bind -M insert \cA 'tmux a'
 # bind ctrl-e to launch ranger (think file Explorer)
 bind -M insert \cE 'ranger'
 
+# bind ctrl-f to run 'fuck'
+bind -M insert \cD 'fuck'
+
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
@@ -89,6 +92,9 @@ end
 
 # Initialize starship
 starship init fish | source
+
+# Initialize fuck
+thefuck --alias | source
 
 # Initialize zoxide
 zoxide init fish --cmd cd | source
