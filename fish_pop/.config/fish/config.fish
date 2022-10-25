@@ -53,6 +53,9 @@ end
 if test ( grep -i microsoft /proc/version )
   alias vim="~/bin/nvim.appimage"
   alias vi="~/bin/nvim.appimage"
+else if test ( grep -i arch /proc/version )
+  alias vim="nvim"
+  alias vi="nvim"
 else
   alias vim="~/Programs/nvim.appimage"
   alias vi="~/Programs/nvim.appimage"
