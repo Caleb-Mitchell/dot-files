@@ -101,7 +101,9 @@ thefuck --alias | source
 
 # Initialize zoxide
 zoxide init fish --cmd cd | source
+
 # Change fzf.fish keybinding for terminal directory search
+# This possible via fzf.fish, installed with fisher
 fzf_configure_bindings --directory=\cG # Go for 'Go to file!'
 
 # Initialize .rbenv
