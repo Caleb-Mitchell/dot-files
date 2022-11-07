@@ -1,1 +1,1 @@
-\setenv EDITOR "$HOME/Programs/nvim.appimage"
+\setenv EDITOR nvim
