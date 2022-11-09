@@ -69,6 +69,9 @@ alias la="exa -lah --icons --git"
 # tmux alias
 alias x="tmux"
 
+# alias psql
+alias ql="psql"
+
 # bat alias to cat
 alias cat="bat"
 
