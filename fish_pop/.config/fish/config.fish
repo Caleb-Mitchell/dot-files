@@ -54,8 +54,8 @@ if test ( grep -i microsoft /proc/version )
   alias vim="~/bin/nvim.appimage"
   alias vi="~/bin/nvim.appimage"
 else
-  alias vim="nvim"
-  alias vi="nvim"
+  alias vim="~/Programs/nvim.appimage"
+  alias vi="~/Programs/nvim.appimage"
 end
 
 # exa aliases
@@ -65,6 +65,9 @@ alias la="exa -lah --icons --git"
 
 # tmux alias
 alias x="tmux"
+
+# alias psql
+alias ql="psql"
 
 # bat alias to cat
 alias cat="bat"
@@ -78,6 +81,9 @@ bind -M insert \cA 'tmux a'
 # bind ctrl-e to launch ranger (think file Explorer)
 bind -M insert \cE 'ranger'
 
+# bind ctrl-f to run 'fuck'
+bind -M insert \cD 'fuck'
+
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
@@ -90,9 +96,14 @@ end
 # Initialize starship
 starship init fish | source
 
+# Initialize fuck
+thefuck --alias | source
+
 # Initialize zoxide
 zoxide init fish --cmd cd | source
+
 # Change fzf.fish keybinding for terminal directory search
+# This possible via fzf.fish, installed with fisher
 fzf_configure_bindings --directory=\cG # Go for 'Go to file!'
 
 # Initialize .rbenv
