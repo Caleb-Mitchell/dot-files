@@ -75,8 +75,12 @@ alt + b
 
 # Launch slack
 alt + l
-  slack
+  flatpak run com.slack.Slack
 
 # Launch nautilus
 alt + f
   nautilus
+
+# Launch authy desktop
+alt + a
+  flatpak run com.authy.Authy
