@@ -84,6 +84,12 @@ bind -M insert \cE 'ranger'
 # bind ctrl-f to run 'fuck'
 bind -M insert \cD 'fuck'
 
+# git log alias for more readability
+function glog
+  git log --graph --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%an%C(reset)%C(bold yellow)%d%C(reset) %C(dim white)- %s%C(reset)' --all
+end
+
+
 # postman alias
 # alias postman="~/Programs/Postman/Postman &"
 function postman
