@@ -781,7 +781,10 @@ selection:
 #
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
-#key_bindings:
+key_bindings:
+# https://stackoverflow.com/a/42461580
+# allows alacritty to recognize ctrl-enter combination
+- { key: Return, mods: Control, chars: "\x1b[13;5u" }
   #- { key: Paste,                                       action: Paste          }
   #- { key: Copy,                                        action: Copy           }
   #- { key: L,         mods: Control,                    action: ClearLogNotice }
