@@ -13,6 +13,7 @@ set storage local
 " Autocmds
 autocmd DocStart gather.town mode ignore
 autocmd DocStart launchschool.com mode ignore
+autocmd DocStart coderpad.io mode ignore
 
 " For syntax highlighting see https://github.com/tridactyl/vim-tridactyl
 " vim: set filetype=tridactyl
