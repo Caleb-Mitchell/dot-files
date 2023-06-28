@@ -115,6 +115,9 @@ fzf_configure_bindings --directory=\cG # Go for 'Go to file!'
 # Initialize .rbenv
 status --is-interactive; and rbenv init - fish | source
 
+# initialize asdf version manager
+source ~/.asdf/asdf.fish
+
 # Add emacs to path
 fish_add_path ~/.emacs.d
 # Add ~/bin to path
