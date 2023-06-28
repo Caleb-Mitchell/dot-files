@@ -11,9 +11,9 @@ Alt::Return ;Disables the key alt when it's pressed alone
 Send, calebj.mitchell@gmail.com
 return
 
-^o::
-Send, bandit.labs.overthewire.org -p2220
-return
+; ^o::
+; Send, bandit.labs.overthewire.org -p2220
+; return
 
 !Enter::
 Run, ubuntu.exe
@@ -40,7 +40,7 @@ Run, skype.exe
 return
 
 !q::
-Run, firefox.exe
+Run, "C:\Program Files\Mozilla Firefox\firefox.exe"
 return
 
 !b::
