@@ -35,6 +35,9 @@ end
 # reload audio modules if glitched
 alias reload_audio="sudo alsa force-reload"
 
+# create alias for lazygit
+alias g="lazygit"
+
 # alias server="ssh -t caleb@10.0.0.140 -p8361 'bash -o vi'"
 alias server="ssh -t caleb@10.0.0.140 -p8361"
 alias server_remote="ssh -t caleb@duckbits.duckdns.org -p8361"
