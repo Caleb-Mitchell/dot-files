@@ -47,7 +47,7 @@ alt + d
 
 # Launch plex
 alt + p
-  flatpak run com.plexamp.Plexamp
+  ~/Programs/Plexamp*
 
 # Launch vscode
 alt + c
@@ -71,7 +71,7 @@ alt + s
 
 # Launch bitwarden
 alt + b
-  flatpak run com.bitwarden.desktop
+  ~/Programs/Bitwarden-*
 
 # Launch slack
 alt + l
