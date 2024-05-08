@@ -1,6 +1,13 @@
 {
-  "extends": ["airbnb", "airbnb/hooks"],
+  "extends": [
+    "airbnb",
+    "airbnb/hooks"
+  ],
   "rules": {
-    "no-console": "off"
+    "no-console": "off",
+    "func-style": [
+      "error",
+      "expression"
+    ]
   }
 }
